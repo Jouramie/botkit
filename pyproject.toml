@@ -10,8 +10,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.12"
-opencv-python = "4.11.0.86"
-pillow = "11.2.1"
+opencv-python = "^4.11.0.86"
+pillow = "^11.2.1"
 pytesseract = "^0.3.10"
 pynput = "^1.7.6"
 pyobjc-framework-cocoa = {version = ">=9.2", markers = "sys_platform == \"darwin\""}
