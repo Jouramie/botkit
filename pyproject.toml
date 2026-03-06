@@ -10,22 +10,22 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.12"
-opencv-python = "^4.11.0.86"
-pillow = "^11.2.1"
-pytesseract = "^0.3.10"
-pynput = "^1.7.6"
+opencv-python = "^4.13.0.92"
+pillow = "^12.1.1"
+pytesseract = "^0.3.13"
+pynput = "^1.8.1"
 pyobjc-framework-cocoa = {version = ">=9.2", markers = "sys_platform == \"darwin\""}
 pyobjc-framework-quartz = {version = ">=9.2", markers = "sys_platform == \"darwin\""}
-pywin32 = {version = ">=306", markers = "sys_platform == \"win32\""}
+pywin32 = {version = ">=311", markers = "sys_platform == \"win32\""}
 dxcam = {version = ">=0.0.5", markers = "sys_platform == \"win32\""}
-jellyfish = "^1.2.0"
+jellyfish = "^1.2.1"
 inflect = "^7.5.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^25.1.0"
-freezegun = "^1.2.2"
-pytest = "^7.4.0"
-pytest-mock = "^3.11.1"
+black = "^26.1.0"
+freezegun = "^1.5.5"
+pytest = "^9.0.2"
+pytest-mock = "^3.15.1"
 
 [tool.black]
 line-length = 120
